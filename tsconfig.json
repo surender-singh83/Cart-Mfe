@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "baseUrl": ".", // This must be specified if "paths" is.
+
+    "paths": {
+      "@shared/*": ["../packages/*"]
+    }
+  },
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
