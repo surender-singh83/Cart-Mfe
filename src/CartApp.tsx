@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import CartList from "./component/CartList";
-import EVENTS, { emit, listen } from "../../packages/event-bus";
+import EVENTS, { emit, listen } from "@surenderrawat83/shared-ui-packages";
 import type { CartItem } from "./types/cartitem.types";
 
 const CartApp = () => {

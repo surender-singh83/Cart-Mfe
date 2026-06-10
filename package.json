@@ -5,12 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && vite preview --port 3002",
+    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview --port 3002"
   },
   "dependencies": {
     "@originjs/vite-plugin-federation": "^1.4.1",
+    "@surenderrawat83/shared-ui-packages": "^1.0.2",
     "@tailwindcss/vite": "^4.2.4",
     "axios": "^1.16.1",
     "react": "^18.3.1",
