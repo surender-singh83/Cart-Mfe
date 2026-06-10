@@ -10,7 +10,6 @@ const CartPage: FC<CartPageProps> = ({
   const totalAmount = cartItems?.reduce((acc: number, item: CartItem) => {
     return (acc += item.price * item.quantity);
   }, 0);
-debugger
   return (
     <div className="min-h-screen bg-gray-100 p-5 md:p-10">
       <div className="max-w-6xl mx-auto">
